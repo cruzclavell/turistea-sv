@@ -91,7 +91,37 @@
         "lon": -89.8456,
         "destacado": false
     },
-    {},
+    {
+  "id": 1,
+  "nombre": "Playa El Cuco",
+  "region": "Zona Oriental",
+  "municipio": "El Cuco, San Miguel",
+  "categoria": "playa",
+  "descripcion": "Una de las playas más populares del oriente de El Salvador, conocida por su extensa franja de arena oscura, restaurantes de mariscos y ambiente ideal para el turismo de playa.",
+  "imagen": "img/destinos/playa-el-cuco.jpg",
+  "precioDesde": 0,
+  "horario": "Abierto las 24 horas",
+  "comoLlegar": "Ubicada en el departamento de San Miguel. Se puede acceder por la Carretera del Litoral (CA-2) tomando el desvío hacia El Cuco desde Chirilagua o Intipucá.",
+  "lat": 13.17194,
+  "lon": -88.1022,
+  "destacado": true
+}
+
+{
+  "id": 3,
+  "nombre": "Playa Las Tunas",
+  "region": "Costa Oriental",
+  "municipio": "Conchagua",
+  "categoria": "playa",
+  "descripcion": "Playa tranquila del Golfo de Fonseca, reconocida por sus paisajes costeros, ambiente relajado y opciones de hospedaje frente al mar. Es un destino ideal para descansar y disfrutar de atardeceres en la costa oriental de El Salvador.",
+  "imagen": "img/destinos/playa-las-tunas.jpg",
+  "precioDesde": 0,
+  "horario": "Acceso libre las 24 horas",
+  "comoLlegar": "Ubicada sobre la Carretera Litoral (CA-2), entre La Unión y El Cuco. Se accede fácilmente en vehículo siguiendo la ruta costera del oriente del país.",
+  "lat": 13.1947,
+  "lon": -87.8489,
+  "destacado": false
+},
     {},
     {},
     {},
