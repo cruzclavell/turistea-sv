@@ -1,53 +1,105 @@
 [
     {
-        
+        "id": 1,
+        "nombre": "Museo de la Revolución Salvadoreña",
+        "region": "Ruta de la Paz",
+        "municipio": "Perquín",
+        "categoria": "historia",
+        "descripcion": "Fundado en 1992 por excombatientes, este museo resguarda la memoria histórica del conflicto armado salvadoreño a través de cinco salas temáticas y exhibiciones al aire libre. Destaca la cabina original de Radio Venceremos, armamento histórico y recorridos guiados con testimonios en primera persona.",
+        "imagen": "img/destinos/museo-de-la-revolucion.jpg",
+        "precioDesde": 1,
+        "horario": "8:30 a. m. – 5:00 p. m.",
+        "comoLlegar": "Desde San Salvador, tomar la carretera Panamericana hacia San Miguel, luego continuar por la Ruta Militar (CA-7N) pasando por San Francisco Gotera hasta llegar a la calle Los Héroes en Perquín, Morazán.",
+        "lat": 13.9617,
+        "lon": -88.1633,
+        "destacado": true
     },
-    {
 
-    },
     {
+        "id": 2,
+        "nombre": "Perquín",
+        "region": "Ruta de la Paz",
+        "municipio": "Perquín",
+        "categoria": "cultura",
+        "descripcion": "Municipio emblemático del norte de Morazán conocido por su clima fresco de montaña, su entorno boscoso y su importancia histórica durante el conflicto armado. Es el punto de partida ideal para recorrer la Ruta de la Paz, disfrutar de gastronomía local y explorar miradores como el Cerro de Perquín.",
+        "imagen": "img/destinos/perquin.jpg",
+        "precioDesde": 0,
+        "horario": "Abierto las 24 horas",
+        "comoLlegar": "Desde San Salvador, tomar la carretera Panamericana hasta San Miguel y desviarse hacia el norte por la Ruta Militar (CA-7N) pasando por San Francisco Gotera hasta llegar al casco urbano de Perquín.",
+        "lat": 13.9597,
+        "lon": -88.1639,
+        "destacado": true
+    },
 
+    {
+        "id": "3",
+        "nombre": "Playa El Tunco",
+        "region": "Costa del Bálsamo",
+        "municipio": "Tamanique",
+        "categoria": "playa",
+        "descripcion": "La playa de surf más famosa del país, de arena volcánica y con la icónica roca en forma de cerdo frente a la orilla. Tiene ambiente juvenil, hoteles, restaurantes y bares, y atardeceres espectaculares sobre el Pacífico.",
+        "imagen": "img/destinos/el-tunco.jpg",
+        "precioDesde": 0,
+        "horario": "Acceso libre todo el día",
+        "comoLlegar": "Desde San Salvador, tomar la carretera al Puerto de La Libertad y luego la Carretera del Litoral hacia el oeste hasta el km 42.5, donde está la entrada a El Tunco.",
+        "lat": 13.4936,
+        "lon": -89.3831,
+        "destacado": true
     },
     {
-
+        "id": "4",
+        "nombre": "Puerto de La Libertad",
+        "region": "Costa del Bálsamo",
+        "municipio": "La Libertad",
+        "categoria": "gastronomia",
+        "descripcion": "Puerto pesquero con malecón, muelle turístico y Mercado del Mar, donde se comen mariscos frescos y ceviches desde unos $3. Junto al malecón está Sunset Park, y desde la playa se puede ver surf en Punta Roca.",
+        "imagen": "img/destinos/puerto-la-libertad.jpg",
+        "precioDesde": 0,
+        "horario": "Acceso libre todo el día (Sunset Park abre de miércoles a domingo)",
+        "comoLlegar": "A unos 40 minutos de San Salvador por la carretera al Puerto. El Complejo Turístico queda en el km 34.5 de la Carretera del Litoral. En bus, la ruta 102 sale desde San Salvador.",
+        "lat": 13.4886,
+        "lon": -89.3222,
+        "destacado": true
     },
     {
-
+        "id": 2,
+        "nombre": "Laguna Verde y cafetales de Apaneca",
+        "region": "Ruta de las Flores",
+        "municipio": "Apaneca",
+        "categoria": "naturaleza",
+        "descripcion": "Recorrido por los cafetales de altura de Apaneca, el municipio más alto de la Ruta de las Flores. Incluye miradores, senderos entre plantaciones y la cercana Laguna Verde, un cráter volcánico de aguas verdosas. Algunas fincas ofrecen tour del café, desde el cultivo hasta la taza.",
+        "imagen": "img/destinos/apaneca-cafetales.jpg",
+        "precioDesde": 8,
+        "horario": "8:00 a. m. – 4:00 p. m.",
+        "comoLlegar": "A 10 minutos del centro de Apaneca por carretera, con acceso en vehículo particular o transporte local.",
+        "lat": 13.8564,
+        "lon": -89.8000,
+        "destacado": true
     },
     {
-
+        "id": 3,
+        "nombre": "Feria Gastronómica y murales de Ataco",
+        "region": "Ruta de las Flores",
+        "municipio": "Concepción de Ataco",
+        "categoria": "gastronomia",
+        "descripcion": "Pueblo colonial conocido por sus coloridos murales, sus calles empedradas y su feria gastronómica de fines de semana. Se puede caminar por el centro, visitar talleres de artesanías y textiles, y probar comida típica y café local.",
+        "imagen": "img/destinos/ataco-feria.jpg",
+        "precioDesde": 0,
+        "horario": "9:00 a. m. – 6:00 p. m. (feria: sábados y domingos)",
+        "comoLlegar": "En el centro de Concepción de Ataco, sobre la carretera de la Ruta de las Flores, a unos 15 minutos de Apaneca.",
+        "lat": 13.8667,
+        "lon": -89.8456,
+        "destacado": false
     },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-        
-    }
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
 ]
