@@ -1,8 +1,34 @@
 [
     {
-        
-    },
-    {
+      "id": 1,
+    "nombre": "Museo de la Revolución Salvadoreña",
+    "region": "Ruta de la Paz",
+    "municipio": "Perquín",
+    "categoria": "historia",
+    "descripcion": "Fundado en 1992 por excombatientes, este museo resguarda la memoria histórica del conflicto armado salvadoreño a través de cinco salas temáticas y exhibiciones al aire libre. Destaca la cabina original de Radio Venceremos, armamento histórico y recorridos guiados con testimonios en primera persona.",
+    "imagen": "img/destinos/museo-de-la-revolucion.jpg",
+    "precioDesde": 1,
+    "horario": "8:30 a. m. – 5:00 p. m.",
+    "comoLlegar": "Desde San Salvador, tomar la carretera Panamericana hacia San Miguel, luego continuar por la Ruta Militar (CA-7N) pasando por San Francisco Gotera hasta llegar a la calle Los Héroes en Perquín, Morazán.",
+    "lat": 13.9617,
+    "lon": -88.1633,
+    "destacado": true  
+    } ,
+    
+    { 
+        "id": 2,
+    "nombre": "Perquín",
+    "region": "Ruta de la Paz",
+    "municipio": "Perquín",
+    "categoria": "cultura",
+    "descripcion": "Municipio emblemático del norte de Morazán conocido por su clima fresco de montaña, su entorno boscoso y su importancia histórica durante el conflicto armado. Es el punto de partida ideal para recorrer la Ruta de la Paz, disfrutar de gastronomía local y explorar miradores como el Cerro de Perquín.",
+    "imagen": "img/destinos/perquin.jpg",
+    "precioDesde": 0,
+    "horario": "Abierto las 24 horas",
+    "comoLlegar": "Desde San Salvador, tomar la carretera Panamericana hasta San Miguel y desviarse hacia el norte por la Ruta Militar (CA-7N) pasando por San Francisco Gotera hasta llegar al casco urbano de Perquín.",
+    "lat": 13.9597,
+    "lon": -88.1639,
+    "destacado": true
 
     },
     {
