@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Turistea sv</title>
 </head>
+
 <body id="inicio">
     <header style="text-align: center;">
+        <div style="width: 25%; float: right;">
+            <legend>Buscar destino</legend>
+            <input type="text" id="buscar" placeholder="Escribe el destino">
+            <button type="button">Buscar</button>
+        </div>
+
         <h1>Bienvenido a Turistea sv</h1>
         <hr>
         <nav>
@@ -18,10 +25,37 @@
         </nav>
         <hr>
     </header>
+
     <main>
-        <figure>
-            <img src="img/el-salvador.jpg" alt="Imagen representativa de El Salvador" style="display: block; margin: 0 auto;" width="990px" height="490px">
-        </figure>
+        <section>
+            <figure>
+                <img src="img/el-salvador.jpg" alt="Imagen representativa de El Salvador" style="display: block; margin: 0 auto;" width="990px" height="490px">
+                <figcaption style="text-align: center;">El Salvador es un país de Centroamérica conocido por sus playas, volcanes y rica cultura. Es un destino ideal para los amantes de la naturaleza y la aventura.</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+        <section style="text-align: center;">
+            <nav>
+                <a href="/Destinos/costadelbalsamo.html" style="margin-right: 30px;">
+                    <button type="button">COSTA DEL BALSAMO</button></a>
+                <a href="/Destinos/oriente.html" style="margin-right: 30px;">
+                    <button type="button">ORIENTE</button></a>
+                <a href="/Destinos/rutadelasflores.html" style="margin-right: 30px;">
+                    <button type="button">RUTA DE LAS FLORES</button></a>
+                <a href="/Destinos/rutadepaz.html" style="margin-right: 30px;">
+                    <button type="button">RUTA DE LA PAZ</button></a>
+                <a href="/Destinos/sansalvador.html" style="margin-right: 30px;">
+                    <button type="button">SAN SALVADOR</button></a>
+                <a href="/Destinos/santaanaycoatepeque.html" style="margin-right: 30px;">
+                    <button type="button">SANTA ANA Y COATEPEQUE</button></a>
+                <a href="/Destinos/suchitotoynorte.html" style="margin-right: 30px;">
+                    <button type="button">SUCHITOTO Y NORTE</button></a>
+            </nav>
+        </section>
+        <hr>
+
+
     </main>
 </body>
 </html>
