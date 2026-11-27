@@ -138,3 +138,9 @@ main{
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.formulariosv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
