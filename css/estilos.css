@@ -167,3 +167,5 @@ main{
     text-align: center;
     row-gap: 20px;
 }
+
+.destacado { grid-column: span 2; } 
