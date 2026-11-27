@@ -125,8 +125,6 @@ aside {
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     margin-top: 2rem;
-    display: grid;
-    
 }
 
 main{
@@ -136,5 +134,12 @@ main{
 
 .principal{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.destinos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
