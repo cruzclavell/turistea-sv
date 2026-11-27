@@ -1,0 +1,52 @@
+    /* Primeras reglas de tu archivo */
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; }
+    img { max-width: 100%; height: auto; }
+    /* Valores abreviados */
+:root {
+    /*Paleta del sitio*/
+    --primario: #242e7d;
+    --secundario: #ab3848;
+    --acento: #426FFF;
+    --fondo: #70da82;
+    --fondo1: ##1e3c72;
+    --fondo2: #426FFF;
+    --fondo3: #00b4db;
+    --texto: #514949;
+    --acento2: #f6eded;
+}
+
+#principal {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside contenido"
+    "pie pie";
+    border: 3px solid black;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 6px;
+    min-height: 100vh;
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+}
+
+
+
+body{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--texto);
+    background: var(--fondo);
+}
+
