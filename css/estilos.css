@@ -133,3 +133,8 @@ main{
     display: grid;
     grid-template-columns: 1 fr;
 }
+
+.principal{
+    display: grid;
+    grid-template-columns: auto auto;
+}
