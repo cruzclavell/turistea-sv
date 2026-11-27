@@ -114,7 +114,7 @@ button:hover{
 }
 
 aside {
-
+    display: grid;
 }
 
 .tarjeta{

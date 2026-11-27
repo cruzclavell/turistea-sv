@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+FR+Trad:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body id="inicio">
-    <header style="text-align: center;">
-        <h1>Portal Turistico</h1>
-        <hr>
-        <nav>
-            <a href="index.html" style="margin-right: 30px;">INICIO</a>
-            <a href="destinos.html" style="margin-right: 30px;">DESTINOS</a>
-            <a href="favoritos.html" style="margin-right: 30px;">FAVORITOS</a>
-            <a href="#inicio" style="margin-right: 30px;">PLANIFICA TU VIAJE</a>
-            <a href="nosotros.html" style="margin-right: 30px;">NOSOTROS</a>
-        </nav>
-        <hr>
-    </header>
-    
-    <main>
+  <header>
+    <h1>Turistea sv</h1>
+    <nav>
+      <a href="#inicio" style="margin-right: 30px;">INICIO</a>
+      <a href="destinos.html" style="margin-right: 30px;">DESTINOS</a>
+      <a href="favoritos.html" style="margin-right: 30px;">FAVORITOS</a>
+      <a href="planifica.html" style="margin-right: 30px;">PLANIFICA TU VIAJE</a>
+      <a href="nosotros.html" style="margin-right: 30px;">NOSOTROS</a>
+    </nav>
+    <div>
+      <input type="text" id="buscar" placeholder="Escribe el destino">
+      <button type="button" class="boton">Buscar</button>
+    </div>
+  </header>
+
+  <main>
     <form action="/procesar" method="get">
       <fieldset>
         <legend>Formulario de Destino </legend>
         <label for="nombre">nombre:</label>
         <input type="text" id="Nombre" placeholder="Escribe tu Nombre" maxlength="40" required>
- 
+
         <label for="correo">correo electronico</label>
         <input type="mail" id="correo" name="correo" placeholder="juan.perez@gmail.com" required>
 
-         <label for="numero">numero de telefono</label>
-          <input type="number" id="number" required> 
+        <label for="numero">numero de telefono</label>
+        <input type="number" id="number" required>
 
-          <label for="hora">Selecciona Fecha y Hora Viaje</label>
-             <input type="datetime-local" id="hora" required>
+        <label for="hora">Selecciona Fecha y Hora Viaje</label>
+        <input type="datetime-local" id="hora" required>
 
-              <legend>Destino de Interes</legend>
-               <input type="checkbox" id="santa Ana" required>
-               <label for="santa Ana" >Santa Ana</label>
+        <legend>Destino de Interes</legend>
+        <input type="checkbox" id="santa Ana" required>
+        <label for="santa Ana">Santa Ana</label>
 
-               <input type="checkbox" id="Lago de Coatepeque" required>
-               <label for="Lago de Coatepeque" >Lago de Coatepeque</label>
-             
-              
-                
-         
-          <label for="tipo viaje">Tipo de Viaje</label>
+        <input type="checkbox" id="Lago de Coatepeque" required>
+        <label for="Lago de Coatepeque">Lago de Coatepeque</label>
+
+
+
+
+        <label for="tipo viaje">Tipo de Viaje</label>
         <select id="viaje" name="viaje">
-        <option value="a pie">A pie</option>
+          <option value="a pie">A pie</option>
           <option value="Vehiculo">Carro</option>
           <option value="bus">Transporte Publico</option>
         </select>
-         
-        
+
+
         <label for="mensaj">Mensaje</label>
         <textarea id="mensaje" name="mensaje" rows="1" cols="40" required></textarea>
-          <!-- funcion de guardar no funciona debe hacer la accion -->
-          <button type="submit">Guardar</button>
-          <button type="reset">Limpiar</button>
+        <!-- funcion de guardar no funciona debe hacer la accion -->
+        <button type="submit">Guardar</button>
+        <button type="reset">Limpiar</button>
       </fieldset>
     </form>
 
@@ -67,4 +75,5 @@
     </footer>
 
 </body>
+
 </html>
