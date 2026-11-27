@@ -174,3 +174,8 @@ main{
 }
 
 .destacado { grid-column: span 2; } 
+
+.tarjeta:hover {
+  transform: translateY(-8px) scale(1.10);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
