@@ -11,15 +11,8 @@
 </head>
 
 <body id="inicio">
-    <header style="text-align: center;">
-        <div style="width: 25%; float: right;">
-            <legend>Buscar destino</legend>
-            <input type="text" id="buscar" placeholder="Escribe el destino">
-            <button type="button">Buscar</button>
-        </div>
-
+    <header>
         <h1>Turistea sv</h1>
-        <hr>
         <nav>
             <a href="#inicio" style="margin-right: 30px;">INICIO</a>
             <a href="destinos.html" style="margin-right: 30px;">DESTINOS</a>
@@ -27,19 +20,27 @@
             <a href="planifica.html" style="margin-right: 30px;">PLANIFICA TU VIAJE</a>
             <a href="nosotros.html" style="margin-right: 30px;">NOSOTROS</a>
         </nav>
-        <hr>
+        <div>
+            <input type="text" id="buscar" placeholder="Escribe el destino">
+            <button type="button" class="boton">Buscar</button>
+        </div>
     </header>
 
+    <div class="contenedor">
+        <aside>
+            <section class="tarjeta">
+
+            </section>
+        </aside>
     <main>
-        <section>
+        <section class="tarjeta">
             <figure>
                 <img src="img/el-salvador.jpg" alt="Imagen representativa de El Salvador" style="display: block; margin: 0 auto;" width="990px" height="490px">
                 <figcaption style="text-align: center;">El Salvador es un país de Centroamérica conocido por sus playas, volcanes y rica cultura. Es un destino ideal para los amantes de la naturaleza y la aventura.</figcaption>
             </figure>
         </section>
 
-        <section style="text-align: center;">
-            <fieldset>
+        <section class="tarjeta">
                 <nav>
                     <h2>Destinos más populares</h2>
                     <a href="/Destinos/costadelbalsamo.html" style="margin-right: 30px;">
@@ -49,10 +50,9 @@
                     <a href="/Destinos/rutadelasflores.html" style="margin-right: 30px;">
                         <button type="button">RUTA DE LAS FLORES</button></a>
                 </nav>
-            </fieldset>
         </section>
 
-        <section style="text-align: center;">
+        <section class="tarjeta">
             <fieldset>
                 <h2>Más destinos</h2>
                 <nav>
@@ -68,6 +68,7 @@
             </fieldset>
         </section>
     </main>
+    </div>
 
     <footer>
         <p>&copy; 2026 Portal Turistico Todos los derechos reservados El salvador.</p>

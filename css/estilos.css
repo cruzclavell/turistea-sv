@@ -9,7 +9,7 @@
     --secundario: #ab3848;
     --acento: #426FFF;
     --fondo: #70da82;
-    --fondo1: ##1e3c72;
+    --fondo1: #6baf22;
     --fondo2: #426FFF;
     --fondo3: #00b4db;
     --texto: #514949;
@@ -31,14 +31,20 @@
 
 nav{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
 }
 
 header {
+    margin-top: 0 auto;
     font-family: "Playwrite FR Trad", cursive;
     font-optical-sizing: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fondo1);
+    grid-area: header;
 }
-
-
 
 body{
     font-family: "Lavishly Yours", cursive;
@@ -50,3 +56,80 @@ body{
     background: var(--fondo);
 }
 
+.centrado { display: flex; justify-content: center; align-items: center; }
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style:none; /* quita las viñetas */
+    margin: 0;
+    padding: 0;
+}
+nav a { 
+    color: #FFFFFF; 
+}
+
+a {
+    color: var(--secundario);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+form label, form input, form select, form textarea { display: block; width: 100%; text-align: center; padding-bottom: 15px;}
+.campo-completo { grid-column: 1 / -1; } /* ocupa toda la fila */
+input, select, textarea {
+    padding: 0.50rem;
+    border: 1px solid #C9D3E6;
+    border-radius: 8px;
+    font: inherit;
+}
+input:focus, textarea:focus { outline: 2px solid var(--secundario); }
+
+.boton {
+    padding: 0.75rem;
+    border: 1px solid #C9D3E6;
+    border-radius: 8px;
+    height: auto;
+}
+
+button:hover{
+    background-color: black;
+    color: var(--acento2);
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto; /* centrado horizontal */
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    column-gap: 40px;
+}
+
+aside {
+
+}
+
+.tarjeta{
+    background: #f1f3f3;
+    padding: 1.5rem;
+    border: 1px solid #D8E2F5;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-top: 2rem;
+    display: grid;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1 fr;
+}
