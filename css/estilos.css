@@ -12,11 +12,11 @@
     --fondo1: #6baf22;
     --fondo2: #426FFF;
     --fondo3: #00b4db;
-    --texto: #514949;
+    --texto: #151313;
     --acento2: #f6eded;
 }
 
-h1, h2, h3 {text-align: center; }
+h1, h2, h3 {text-align: center;}
 
 #principal {
     display: grid;
@@ -38,21 +38,26 @@ nav{
 
 header {
     margin-top: 0 auto;
+    font-size: 16px;
     font-family: "Playwrite FR Trad", cursive;
     font-optical-sizing: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--fondo1);
+    background: linear-gradient(to right, #0b6e4f, #2ecc71);
     grid-area: header;
+}
+
+header h1 {
+    color: var(--acento2);
 }
 
 body{
     font-family: "Lavishly Yours", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.6;
     color: var(--texto);
     background: var(--fondo);
